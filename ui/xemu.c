@@ -1411,7 +1411,6 @@ int main(int argc, char **argv)
 
     while (1) {
         sdl2_gl_refresh(&sdl2_console[0].dcl);
-        assert(glGetError() == GL_NO_ERROR);
     }
 
     // rcu_unregister_thread();
